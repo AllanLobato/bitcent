@@ -1,6 +1,6 @@
 import Area from "../comum/Area";
 import Logo from "../comum/Logo";
-import RedesSociais from "./RedesSociais";
+import RedesSociais from "./RedeSociais";
 
 export default function Rodape() {
     return (
@@ -20,8 +20,4 @@ export default function Rodape() {
             </div>
         </Area>
     )
-
-
 }
-
-//className="font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-cyan-600"> Faz um gradiente no texto

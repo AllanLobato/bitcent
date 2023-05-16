@@ -4,11 +4,10 @@ import Depoimentos from "./depoimentos";
 import Destaque from "./destaque";
 import Rodape from "./rodape";
 import Vantagens from "./vantagens";
-import Vantagem from "./vantagens/Vantagem";
 
 export default function Landing() {
     return (
-        <Pagina>
+        <Pagina externa>
             <Cabecalho />
             <Destaque />
             <Vantagens />

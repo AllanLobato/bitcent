@@ -49,7 +49,7 @@ export default function Financas() {
 
     function renderizarTransacoes() {
         const props = { transacoes, selecionarTransacao: selecionar }
-        return tipoExibicao === 'lista'
+        return tipoExibicao === 'lista' 
             ? <Lista {...props} />
             : <Grade {...props} />
     }

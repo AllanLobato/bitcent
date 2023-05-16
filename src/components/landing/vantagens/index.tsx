@@ -1,8 +1,8 @@
 import Area from "../comum/Area";
+import vantagem1 from "../../../../public/vantagem-1.jpg"
+import vantagem2 from "../../../../public/vantagem-2.jpg"
+import vantagem3 from "../../../../public/vantagem-3.jpg"
 import Vantagem from "./Vantagem";
-import vantagem1 from "../../../../public/vantagem-1.jpg";
-import vantagem2 from "../../../../public/vantagem-2.jpg";
-import vantagem3 from "../../../../public/vantagem-3.jpg";
 
 export default function Vantagens() {
     return (
@@ -26,7 +26,6 @@ export default function Vantagens() {
                     subtitulo="Nosso princípio número 1 é ser uma plataforma que torne o controle financeiro simples, então o planejamento se torna algo natural!"
                 />
             </div>
-
         </Area>
     )
 }

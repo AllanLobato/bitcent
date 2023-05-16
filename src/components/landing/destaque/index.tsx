@@ -1,14 +1,15 @@
 import Area from "../comum/Area";
-import ImagemResponsiva from "../comum/ImagemResponsiva";
-import principal from "../../../../public/principal.jpg";
 import Slogan from "./Slogan";
+import principal from "../../../../public/principal.jpg"
+import ImagemResponsiva from "../comum/ImagemResponsiva";
 
 export default function Destaque() {
     return (
         <Area id="inicio" className="pt-20">
-            <div className="flex items-center justify-around h-[500px]">
-
-
+            <div className={`
+                flex items-center justify-around
+                h-[500px]
+            `}>
                 <Slogan />
                 <ImagemResponsiva
                     imagem={principal}
